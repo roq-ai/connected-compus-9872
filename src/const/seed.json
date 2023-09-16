@@ -1,0 +1,2322 @@
+[
+  {
+    "student": [
+      {
+        "id": "b6ca0b72-7307-40b4-82c9-c9083f313f0d",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "student_grade": "A",
+        "created_at": "2023-09-16T04:12:05.600Z",
+        "updated_at": "2023-09-15T21:01:48.532Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1f9f8632-4397-41a1-b271-b75969648fcc",
+        "first_name": "Daniel",
+        "last_name": "Williams",
+        "student_grade": "B",
+        "created_at": "2023-09-16T08:03:38.539Z",
+        "updated_at": "2023-09-15T23:37:35.554Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3f104dd9-9e28-4b47-9fd9-b73d2b3d8707",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "student_grade": "C",
+        "created_at": "2023-09-15T19:15:08.038Z",
+        "updated_at": "2023-09-16T16:38:10.071Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e6d49b92-5de6-437b-80d3-a0489df406d7",
+        "first_name": "Jacob",
+        "last_name": "Jones",
+        "student_grade": "D",
+        "created_at": "2023-09-16T10:57:05.859Z",
+        "updated_at": "2023-09-16T06:31:02.460Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0084fd44-24a0-4863-a3f3-4644929efe24",
+        "first_name": "Sophia",
+        "last_name": "Miller",
+        "student_grade": "F",
+        "created_at": "2023-09-15T21:20:45.893Z",
+        "updated_at": "2023-09-16T02:44:46.650Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "41ddf1ca-df6c-44db-8247-cd1ee38469b9",
+        "name": "Mathematics",
+        "description": "Learn about numbers and calculations",
+        "created_at": "2023-09-16T16:35:16.478Z",
+        "updated_at": "2023-09-15T21:29:55.930Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "34a04b3a-a2bd-4686-ace9-267fc21e064b",
+        "name": "Science",
+        "description": "Explore the natural world",
+        "created_at": "2023-09-15T22:57:19.901Z",
+        "updated_at": "2023-09-15T20:00:44.272Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "cc7f7383-0dd2-41e2-86c5-d1d5983556e9",
+        "name": "English",
+        "description": "Improve your language skills",
+        "created_at": "2023-09-15T20:39:17.781Z",
+        "updated_at": "2023-09-16T13:16:25.026Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "97143483-86b1-476a-8b88-dd6a9f15d162",
+        "name": "History",
+        "description": "Study the past events",
+        "created_at": "2023-09-16T08:18:13.788Z",
+        "updated_at": "2023-09-16T09:03:21.483Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d6a5be74-2004-47a1-9c6d-f37960648a13",
+        "name": "Computer Science",
+        "description": "Discover programming and algorithms",
+        "created_at": "2023-09-15T23:26:30.155Z",
+        "updated_at": "2023-09-16T01:17:12.438Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "ae742a4c-3ec5-4ce1-9c22-7a842bab9c1d",
+        "name": "Essay",
+        "description": "Write a research paper",
+        "due_date": "2023-09-16T14:09:35.811Z",
+        "created_at": "2023-09-15T22:47:27.133Z",
+        "updated_at": "2023-09-16T07:31:46.184Z",
+        "course_id": "41ddf1ca-df6c-44db-8247-cd1ee38469b9"
+      },
+      {
+        "id": "92ba9e45-dd21-4989-8026-a2954b3c42f4",
+        "name": "Project",
+        "description": "Develop a software application",
+        "due_date": "2023-09-16T16:27:26.449Z",
+        "created_at": "2023-09-16T09:14:01.187Z",
+        "updated_at": "2023-09-16T10:28:01.258Z",
+        "course_id": "d6a5be74-2004-47a1-9c6d-f37960648a13"
+      },
+      {
+        "id": "e2ce1684-bf6e-433a-b169-6130ff1bbe68",
+        "name": "Presentation",
+        "description": "Deliver a speech",
+        "due_date": "2023-09-16T13:57:12.712Z",
+        "created_at": "2023-09-15T20:45:42.737Z",
+        "updated_at": "2023-09-16T02:58:51.647Z",
+        "course_id": "d6a5be74-2004-47a1-9c6d-f37960648a13"
+      },
+      {
+        "id": "dfd0917a-98c1-410a-b100-9e99a5911e25",
+        "name": "Quiz",
+        "description": "Answer multiple-choice questions",
+        "due_date": "2023-09-16T15:40:55.152Z",
+        "created_at": "2023-09-15T20:58:33.638Z",
+        "updated_at": "2023-09-16T01:30:10.054Z",
+        "course_id": "d6a5be74-2004-47a1-9c6d-f37960648a13"
+      },
+      {
+        "id": "f0ebafdf-a3c5-4a81-adf5-aa837f56884d",
+        "name": "Homework",
+        "description": "Complete assigned tasks",
+        "due_date": "2023-09-16T01:40:03.524Z",
+        "created_at": "2023-09-16T09:37:22.272Z",
+        "updated_at": "2023-09-16T13:54:07.920Z",
+        "course_id": "cc7f7383-0dd2-41e2-86c5-d1d5983556e9"
+      }
+    ],
+    "grade": [
+      {
+        "id": "06773d40-2bfb-4a85-b230-44135a45820c",
+        "score": 829,
+        "comments": "Excellent work!",
+        "created_at": "2023-09-16T09:03:59.703Z",
+        "updated_at": "2023-09-15T19:44:22.784Z",
+        "assignment_id": "dfd0917a-98c1-410a-b100-9e99a5911e25",
+        "student_id": "b6ca0b72-7307-40b4-82c9-c9083f313f0d"
+      },
+      {
+        "id": "9d897050-7c65-42fa-a73c-c5940ec24070",
+        "score": 76170,
+        "comments": "Good effort!",
+        "created_at": "2023-09-16T12:44:30.452Z",
+        "updated_at": "2023-09-15T22:02:15.695Z",
+        "assignment_id": "ae742a4c-3ec5-4ce1-9c22-7a842bab9c1d",
+        "student_id": "1f9f8632-4397-41a1-b271-b75969648fcc"
+      },
+      {
+        "id": "92c1ee93-7715-4161-8cf2-58c973eb916c",
+        "score": 45949,
+        "comments": "Needs improvement",
+        "created_at": "2023-09-15T23:52:59.634Z",
+        "updated_at": "2023-09-15T19:16:06.920Z",
+        "assignment_id": "e2ce1684-bf6e-433a-b169-6130ff1bbe68",
+        "student_id": "3f104dd9-9e28-4b47-9fd9-b73d2b3d8707"
+      },
+      {
+        "id": "0efe3566-d824-4d19-92bc-f8a33f42a7b9",
+        "score": 96435,
+        "comments": "Well done!",
+        "created_at": "2023-09-15T18:42:50.334Z",
+        "updated_at": "2023-09-16T09:30:37.470Z",
+        "assignment_id": "e2ce1684-bf6e-433a-b169-6130ff1bbe68",
+        "student_id": "b6ca0b72-7307-40b4-82c9-c9083f313f0d"
+      },
+      {
+        "id": "9e30f2d2-f518-4276-acdc-c8af7e579c45",
+        "score": 90832,
+        "comments": "Keep up the good work",
+        "created_at": "2023-09-15T21:40:44.096Z",
+        "updated_at": "2023-09-16T15:00:41.440Z",
+        "assignment_id": "92ba9e45-dd21-4989-8026-a2954b3c42f4",
+        "student_id": "0084fd44-24a0-4863-a3f3-4644929efe24"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1bebef7c-f2ca-4102-9bb2-7005c2838afc",
+        "email": "Taurean.Bartoletti@hotmail.com",
+        "firstName": "Zella",
+        "lastName": "McKenzie-Weissnat",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90881484",
+        "tenantId": null
+      },
+      {
+        "reference": "e4b73160-fa19-4bf4-8eea-b7421a6b922d",
+        "email": "Freida_Dach62@hotmail.com",
+        "firstName": "Jessie",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33743740",
+        "tenantId": null
+      },
+      {
+        "reference": "e88d88f9-96c2-4c9e-bf0e-21dd82564c63",
+        "email": "Adalberto.Bogan@hotmail.com",
+        "firstName": "Marquis",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1174.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e90363f7-70a1-4ca9-aa56-2d4ca9417bf5",
+        "email": "Mary_Hessel5@hotmail.com",
+        "firstName": "Zita",
+        "lastName": "Jaskolski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28929296",
+        "tenantId": null
+      },
+      {
+        "reference": "dd22aa20-28f1-4244-ad05-28949510e4b5",
+        "email": "Alize_Schoen73@yahoo.com",
+        "firstName": "Kacey",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/193.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "babca8fb-5a5f-4aac-ac19-b7196d404d0f",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "student_grade": "A",
+        "created_at": "2023-09-16T00:09:22.854Z",
+        "updated_at": "2023-09-16T15:53:12.030Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "db9e4fed-c6aa-406d-85bd-8d1ff08747df",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "student_grade": "B",
+        "created_at": "2023-09-15T22:27:40.682Z",
+        "updated_at": "2023-09-16T05:42:15.274Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3ed55191-dcb8-4e41-ae19-05bab5c12d6f",
+        "first_name": "Sophia",
+        "last_name": "Williams",
+        "student_grade": "C",
+        "created_at": "2023-09-16T09:32:11.854Z",
+        "updated_at": "2023-09-15T22:41:46.531Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d2d51165-45ea-48de-8943-c42a0efa004a",
+        "first_name": "Matthew",
+        "last_name": "Brown",
+        "student_grade": "D",
+        "created_at": "2023-09-16T07:50:22.497Z",
+        "updated_at": "2023-09-16T08:09:58.621Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d54fc40f-76fe-4c6f-a612-ef48b2ca8dab",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "student_grade": "F",
+        "created_at": "2023-09-16T09:57:59.795Z",
+        "updated_at": "2023-09-16T00:31:35.182Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "f08008cd-f990-4215-9e53-ec10bd6ef3b5",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming and develop problem-solving skills",
+        "created_at": "2023-09-16T17:14:38.066Z",
+        "updated_at": "2023-09-16T01:12:57.406Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "c80da339-efd4-4821-9cdd-42b8e4b914a8",
+        "name": "Data Science Fundamentals",
+        "description": "Explore data analysis techniques using Python and R",
+        "created_at": "2023-09-15T20:41:28.478Z",
+        "updated_at": "2023-09-15T21:56:29.933Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "cecd5aab-a40d-4fc0-8ae8-206b270e77cf",
+        "name": "Web Development",
+        "description": "Build interactive websites using HTML, CSS, and JavaScript",
+        "created_at": "2023-09-16T10:51:37.292Z",
+        "updated_at": "2023-09-15T18:43:47.299Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "817bdf44-8e5a-4d94-b6cb-4bba16e2bf8b",
+        "name": "Marketing Strategies",
+        "description": "Discover effective marketing strategies for business success",
+        "created_at": "2023-09-16T14:30:35.314Z",
+        "updated_at": "2023-09-16T12:58:58.428Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "aaf9df24-be92-4843-9de3-10b05dcf4c11",
+        "name": "Business Ethics",
+        "description": "Examine ethical considerations in the corporate world",
+        "created_at": "2023-09-16T17:39:55.923Z",
+        "updated_at": "2023-09-15T21:06:49.683Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "563ac58b-7c93-4d02-8bae-430a3e10b47a",
+        "name": "Project Proposal",
+        "description": "Create a proposal for a software development project",
+        "due_date": "2023-09-15T19:46:48.549Z",
+        "created_at": "2023-09-16T02:18:36.970Z",
+        "updated_at": "2023-09-15T19:43:08.035Z",
+        "course_id": "817bdf44-8e5a-4d94-b6cb-4bba16e2bf8b"
+      },
+      {
+        "id": "281ac93a-6039-47b6-a25a-7aa0e4e059c0",
+        "name": "Data Analysis Report",
+        "description": "Analyze a dataset and present findings in a report",
+        "due_date": "2023-09-16T01:06:08.648Z",
+        "created_at": "2023-09-15T19:24:10.155Z",
+        "updated_at": "2023-09-16T00:19:22.401Z",
+        "course_id": "f08008cd-f990-4215-9e53-ec10bd6ef3b5"
+      },
+      {
+        "id": "8ae2ea16-03a6-46cf-9aa5-3ceb0cb6bb87",
+        "name": "Website Development",
+        "description": "Develop a responsive website for a client",
+        "due_date": "2023-09-16T18:09:55.465Z",
+        "created_at": "2023-09-16T03:28:09.204Z",
+        "updated_at": "2023-09-16T10:04:01.433Z",
+        "course_id": "cecd5aab-a40d-4fc0-8ae8-206b270e77cf"
+      },
+      {
+        "id": "16fa8dfd-a69c-4aab-bdfc-4b68b6978309",
+        "name": "Marketing Campaign Plan",
+        "description": "Design a comprehensive marketing campaign plan",
+        "due_date": "2023-09-16T09:36:05.026Z",
+        "created_at": "2023-09-16T09:57:29.823Z",
+        "updated_at": "2023-09-16T17:41:50.326Z",
+        "course_id": "cecd5aab-a40d-4fc0-8ae8-206b270e77cf"
+      },
+      {
+        "id": "b42eb96f-a4a6-4975-8326-f573ef66405c",
+        "name": "Ethics Case Study",
+        "description": "Evaluate a real-life ethics case and provide recommendations",
+        "due_date": "2023-09-16T06:21:01.701Z",
+        "created_at": "2023-09-15T21:36:41.691Z",
+        "updated_at": "2023-09-16T15:31:13.565Z",
+        "course_id": "cecd5aab-a40d-4fc0-8ae8-206b270e77cf"
+      }
+    ],
+    "grade": [
+      {
+        "id": "98d3ac0b-89be-46f2-a64e-81a2938ba8bd",
+        "score": 35638,
+        "comments": "Excellent work!",
+        "created_at": "2023-09-16T07:10:58.008Z",
+        "updated_at": "2023-09-16T04:28:01.347Z",
+        "assignment_id": "563ac58b-7c93-4d02-8bae-430a3e10b47a",
+        "student_id": "babca8fb-5a5f-4aac-ac19-b7196d404d0f"
+      },
+      {
+        "id": "75aa1043-e169-4bbd-a7de-248cb4ec6fde",
+        "score": 43314,
+        "comments": "Good effort!",
+        "created_at": "2023-09-16T16:51:00.522Z",
+        "updated_at": "2023-09-16T04:42:30.281Z",
+        "assignment_id": "563ac58b-7c93-4d02-8bae-430a3e10b47a",
+        "student_id": "babca8fb-5a5f-4aac-ac19-b7196d404d0f"
+      },
+      {
+        "id": "9286a16a-61cf-4433-8e80-e6945036bfa0",
+        "score": 5441,
+        "comments": "Needs improvement",
+        "created_at": "2023-09-16T16:56:18.177Z",
+        "updated_at": "2023-09-16T14:22:15.881Z",
+        "assignment_id": "16fa8dfd-a69c-4aab-bdfc-4b68b6978309",
+        "student_id": "d2d51165-45ea-48de-8943-c42a0efa004a"
+      },
+      {
+        "id": "d9d57367-8ac6-458c-8e71-c0ef58794363",
+        "score": 70203,
+        "comments": "Well done!",
+        "created_at": "2023-09-16T00:44:44.139Z",
+        "updated_at": "2023-09-16T11:04:47.724Z",
+        "assignment_id": "8ae2ea16-03a6-46cf-9aa5-3ceb0cb6bb87",
+        "student_id": "d2d51165-45ea-48de-8943-c42a0efa004a"
+      },
+      {
+        "id": "b8a54f2f-ce3c-43de-9b87-2bbef5697479",
+        "score": 66113,
+        "comments": "Great job!",
+        "created_at": "2023-09-16T18:04:25.358Z",
+        "updated_at": "2023-09-16T14:52:18.616Z",
+        "assignment_id": "16fa8dfd-a69c-4aab-bdfc-4b68b6978309",
+        "student_id": "3ed55191-dcb8-4e41-ae19-05bab5c12d6f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "456ab731-fe1e-4c58-9e8b-77720fe176a8",
+        "email": "Lorenz16@yahoo.com",
+        "firstName": "Ines",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89451227",
+        "tenantId": null
+      },
+      {
+        "reference": "e85135f5-bf89-41c5-b11d-f26029c72db3",
+        "email": "Osborne.Morar@yahoo.com",
+        "firstName": "Nakia",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/90.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "14c4ad92-1559-459c-a1fb-a1084f23a43f",
+        "email": "Kyle_Grady@yahoo.com",
+        "firstName": "Liam",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/778.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c005a153-8c34-4bb7-8a03-5c5ccd1c9329",
+        "email": "Lacey68@yahoo.com",
+        "firstName": "Erna",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1211.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8dc20317-3acd-49f2-a884-14bef8c7ec14",
+        "email": "Eli_Bradtke61@gmail.com",
+        "firstName": "Thelma",
+        "lastName": "Hettinger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98838374",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "0c3c2ef7-625d-4cba-b69e-7864d3bcad9e",
+        "first_name": "Alex",
+        "last_name": "Johnson",
+        "student_grade": "A",
+        "created_at": "2023-09-15T22:39:23.754Z",
+        "updated_at": "2023-09-15T18:56:06.120Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a168758c-a876-469d-afb0-43a9d5a20ead",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "student_grade": "B",
+        "created_at": "2023-09-15T22:51:54.683Z",
+        "updated_at": "2023-09-16T05:50:16.269Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7b09c127-edb7-4ac9-8566-04d067b3f756",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "student_grade": "C",
+        "created_at": "2023-09-16T17:30:29.817Z",
+        "updated_at": "2023-09-16T03:04:31.646Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4d0e48f7-770a-4951-9ee8-2b0d1a6a3a0c",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "student_grade": "D",
+        "created_at": "2023-09-16T00:05:23.010Z",
+        "updated_at": "2023-09-16T05:51:12.844Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3f3a8f3f-de7f-4876-8c1c-c7d1c31eac56",
+        "first_name": "Matthew",
+        "last_name": "Wilson",
+        "student_grade": "F",
+        "created_at": "2023-09-16T13:59:03.256Z",
+        "updated_at": "2023-09-16T12:41:24.984Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "c792851a-d448-4727-9a10-97ff4c94a23b",
+        "name": "Mathematics",
+        "description": "Study of numbers and calculations",
+        "created_at": "2023-09-15T19:50:01.029Z",
+        "updated_at": "2023-09-16T02:53:02.477Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "460429ae-9c3b-474a-be68-5c9449825ae9",
+        "name": "Science",
+        "description": "Study of natural phenomena",
+        "created_at": "2023-09-16T15:38:40.457Z",
+        "updated_at": "2023-09-16T04:58:35.143Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "0d52a65c-756d-46db-aa8d-40095094e091",
+        "name": "English",
+        "description": "Study of language and literature",
+        "created_at": "2023-09-16T18:24:04.260Z",
+        "updated_at": "2023-09-16T18:19:07.887Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "b4369cc9-221c-41ed-a2eb-c0a67129bcdb",
+        "name": "History",
+        "description": "Study of past events",
+        "created_at": "2023-09-16T11:52:48.911Z",
+        "updated_at": "2023-09-16T01:09:18.152Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "96926c34-086f-441f-b2e2-d0c17591886e",
+        "name": "Computer Science",
+        "description": "Study of computers and programming",
+        "created_at": "2023-09-16T02:01:15.139Z",
+        "updated_at": "2023-09-16T13:36:49.706Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "c5e6dfab-450d-4306-85de-7d6ae9e5420f",
+        "name": "Homework 1",
+        "description": "Complete the assigned problems",
+        "due_date": "2023-09-16T17:10:46.952Z",
+        "created_at": "2023-09-16T08:17:55.411Z",
+        "updated_at": "2023-09-16T10:49:50.765Z",
+        "course_id": "0d52a65c-756d-46db-aa8d-40095094e091"
+      },
+      {
+        "id": "0f265269-f44a-4272-8fc5-07be10ee231b",
+        "name": "Project 2",
+        "description": "Develop a software application",
+        "due_date": "2023-09-15T21:00:11.216Z",
+        "created_at": "2023-09-16T12:11:59.336Z",
+        "updated_at": "2023-09-16T10:18:20.334Z",
+        "course_id": "460429ae-9c3b-474a-be68-5c9449825ae9"
+      },
+      {
+        "id": "e51aa843-b1cf-4167-91c3-9aff852448e5",
+        "name": "Essay 3",
+        "description": "Write an essay on a given topic",
+        "due_date": "2023-09-16T09:18:51.807Z",
+        "created_at": "2023-09-16T13:11:58.316Z",
+        "updated_at": "2023-09-16T08:52:11.605Z",
+        "course_id": "96926c34-086f-441f-b2e2-d0c17591886e"
+      },
+      {
+        "id": "516f01b8-576a-4395-8d92-4768d16ceb17",
+        "name": "Exam 1",
+        "description": "Take a written examination",
+        "due_date": "2023-09-16T06:58:05.941Z",
+        "created_at": "2023-09-16T04:35:24.243Z",
+        "updated_at": "2023-09-16T16:02:03.633Z",
+        "course_id": "460429ae-9c3b-474a-be68-5c9449825ae9"
+      },
+      {
+        "id": "cb42d3d2-f5a5-4905-82f9-0a2cce05bd6b",
+        "name": "Presentation 2",
+        "description": "Deliver a presentation on a specific subject",
+        "due_date": "2023-09-16T18:21:43.182Z",
+        "created_at": "2023-09-16T12:14:38.297Z",
+        "updated_at": "2023-09-16T06:44:35.009Z",
+        "course_id": "96926c34-086f-441f-b2e2-d0c17591886e"
+      }
+    ],
+    "grade": [
+      {
+        "id": "6c0103e9-0151-468e-a48b-de497d2faaa7",
+        "score": 97680,
+        "comments": "Excellent work!",
+        "created_at": "2023-09-15T19:15:50.397Z",
+        "updated_at": "2023-09-15T23:20:13.359Z",
+        "assignment_id": "e51aa843-b1cf-4167-91c3-9aff852448e5",
+        "student_id": "a168758c-a876-469d-afb0-43a9d5a20ead"
+      },
+      {
+        "id": "573c6a0e-0434-4ff1-b763-12ed3fe83bdf",
+        "score": 4989,
+        "comments": "Needs improvement",
+        "created_at": "2023-09-16T07:30:30.575Z",
+        "updated_at": "2023-09-16T06:08:25.723Z",
+        "assignment_id": "0f265269-f44a-4272-8fc5-07be10ee231b",
+        "student_id": "a168758c-a876-469d-afb0-43a9d5a20ead"
+      },
+      {
+        "id": "79e87cfc-f615-473e-8dd9-e8aa90d8ed55",
+        "score": 566,
+        "comments": "Well done",
+        "created_at": "2023-09-16T01:12:56.416Z",
+        "updated_at": "2023-09-16T13:08:28.669Z",
+        "assignment_id": "cb42d3d2-f5a5-4905-82f9-0a2cce05bd6b",
+        "student_id": "a168758c-a876-469d-afb0-43a9d5a20ead"
+      },
+      {
+        "id": "927eb93b-a9e6-422e-9d3b-c19b329167e5",
+        "score": 24662,
+        "comments": "Good effort",
+        "created_at": "2023-09-16T08:29:37.667Z",
+        "updated_at": "2023-09-16T17:03:20.510Z",
+        "assignment_id": "e51aa843-b1cf-4167-91c3-9aff852448e5",
+        "student_id": "4d0e48f7-770a-4951-9ee8-2b0d1a6a3a0c"
+      },
+      {
+        "id": "e9f07e5e-428e-42cf-9ed8-4ec06047084b",
+        "score": 788,
+        "comments": "Keep up the good work",
+        "created_at": "2023-09-15T19:46:59.382Z",
+        "updated_at": "2023-09-16T17:14:42.402Z",
+        "assignment_id": "516f01b8-576a-4395-8d92-4768d16ceb17",
+        "student_id": "7b09c127-edb7-4ac9-8566-04d067b3f756"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0816ce5f-b50c-4844-8e51-995012bd0961",
+        "email": "Makenzie23@hotmail.com",
+        "firstName": "Eleonore",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89291718",
+        "tenantId": null
+      },
+      {
+        "reference": "359b0763-2613-4013-a92b-aab144b5d378",
+        "email": "Karina18@gmail.com",
+        "firstName": "Taylor",
+        "lastName": "Greenholt-Kozey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37107823",
+        "tenantId": null
+      },
+      {
+        "reference": "42b5abb0-1be6-48b5-8577-63e3eff8f540",
+        "email": "Amiya6@gmail.com",
+        "firstName": "Grady",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34867664",
+        "tenantId": null
+      },
+      {
+        "reference": "64fd2a7a-ab78-4ef0-9bf5-586da14c7d18",
+        "email": "Ivah98@gmail.com",
+        "firstName": "Ivory",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/757.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e8a27da2-574f-4dcd-a7d9-800241f96575",
+        "email": "Angelita60@yahoo.com",
+        "firstName": "Candido",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21941763",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "3712521a-20dd-42c4-a425-810806a72c0e",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "student_grade": "A",
+        "created_at": "2023-09-16T05:33:52.939Z",
+        "updated_at": "2023-09-15T20:52:32.178Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b65be6ee-707e-4a8a-ad2c-47a323762b64",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "student_grade": "B",
+        "created_at": "2023-09-16T00:10:40.208Z",
+        "updated_at": "2023-09-16T09:17:32.540Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2033ddd8-5679-43f5-9382-1f6c96f2eb48",
+        "first_name": "Eva",
+        "last_name": "Brown",
+        "student_grade": "C",
+        "created_at": "2023-09-16T12:45:41.678Z",
+        "updated_at": "2023-09-16T12:11:31.854Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "91286fcd-81bc-489a-870b-b126e97cab0d",
+        "first_name": "Max",
+        "last_name": "Davis",
+        "student_grade": "D",
+        "created_at": "2023-09-15T22:35:24.078Z",
+        "updated_at": "2023-09-16T07:03:53.779Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e42bea35-3545-4879-9937-3fe68cb7f629",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "student_grade": "F",
+        "created_at": "2023-09-15T23:35:15.136Z",
+        "updated_at": "2023-09-16T01:27:58.960Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "cf7fb1e7-2fa3-4c93-84eb-0055fde6a12e",
+        "name": "Mathematics",
+        "description": "Study of numbers and shapes",
+        "created_at": "2023-09-16T18:08:26.115Z",
+        "updated_at": "2023-09-16T14:27:38.290Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f2ec7a85-b4ae-4289-8e67-41d090574430",
+        "name": "English Literature",
+        "description": "Exploring classic literature",
+        "created_at": "2023-09-16T05:30:13.979Z",
+        "updated_at": "2023-09-16T03:41:15.826Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "263dc5b5-265f-4cae-991d-3cb6093d80e6",
+        "name": "Physics",
+        "description": "Understanding the laws of nature",
+        "created_at": "2023-09-16T03:30:30.222Z",
+        "updated_at": "2023-09-16T05:39:00.308Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d63c644e-827e-49bb-a47e-462a3543c85e",
+        "name": "History",
+        "description": "Learning about past events",
+        "created_at": "2023-09-16T09:01:29.005Z",
+        "updated_at": "2023-09-16T13:00:04.482Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "60e6c612-cd7c-4768-8173-a13880c8a49e",
+        "name": "Computer Science",
+        "description": "Programming and algorithms",
+        "created_at": "2023-09-16T18:23:29.424Z",
+        "updated_at": "2023-09-16T06:26:44.769Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "1e20ff5d-b0f1-4942-8d46-890fcde16874",
+        "name": "Essay",
+        "description": "Write an essay on a given topic",
+        "due_date": "2023-09-15T18:59:42.203Z",
+        "created_at": "2023-09-16T08:01:21.078Z",
+        "updated_at": "2023-09-16T05:37:36.531Z",
+        "course_id": "263dc5b5-265f-4cae-991d-3cb6093d80e6"
+      },
+      {
+        "id": "7333c168-afad-45d6-9d17-86cf6f6023c6",
+        "name": "Project",
+        "description": "Create a project using specific requirements",
+        "due_date": "2023-09-16T09:39:54.884Z",
+        "created_at": "2023-09-16T17:42:06.550Z",
+        "updated_at": "2023-09-16T17:11:32.600Z",
+        "course_id": "d63c644e-827e-49bb-a47e-462a3543c85e"
+      },
+      {
+        "id": "26dc1804-5795-4ccc-bb3f-043fbcb46942",
+        "name": "Presentation",
+        "description": "Prepare and deliver a presentation",
+        "due_date": "2023-09-16T12:18:42.095Z",
+        "created_at": "2023-09-16T01:58:53.044Z",
+        "updated_at": "2023-09-16T12:18:30.778Z",
+        "course_id": "60e6c612-cd7c-4768-8173-a13880c8a49e"
+      },
+      {
+        "id": "0c5f7ff2-2341-4b63-97c5-c9e456c83358",
+        "name": "Quiz",
+        "description": "Take a quiz to test your knowledge",
+        "due_date": "2023-09-16T13:30:23.415Z",
+        "created_at": "2023-09-16T04:09:04.099Z",
+        "updated_at": "2023-09-15T21:33:52.595Z",
+        "course_id": "263dc5b5-265f-4cae-991d-3cb6093d80e6"
+      },
+      {
+        "id": "7f575d9d-7e02-418a-8415-9837287bdd87",
+        "name": "Research Paper",
+        "description": "Write a research paper on a chosen subject",
+        "due_date": "2023-09-16T18:23:02.604Z",
+        "created_at": "2023-09-15T23:13:09.477Z",
+        "updated_at": "2023-09-16T05:56:15.157Z",
+        "course_id": "cf7fb1e7-2fa3-4c93-84eb-0055fde6a12e"
+      }
+    ],
+    "grade": [
+      {
+        "id": "cde162bc-0de7-4ee0-bf0a-b54892ce3aad",
+        "score": 28786,
+        "comments": "Excellent work!",
+        "created_at": "2023-09-16T09:57:53.601Z",
+        "updated_at": "2023-09-15T23:43:55.937Z",
+        "assignment_id": "1e20ff5d-b0f1-4942-8d46-890fcde16874",
+        "student_id": "b65be6ee-707e-4a8a-ad2c-47a323762b64"
+      },
+      {
+        "id": "c71e1ee4-d839-4bc9-be3f-db06304ad55d",
+        "score": 66292,
+        "comments": "Good effort",
+        "created_at": "2023-09-16T11:02:20.368Z",
+        "updated_at": "2023-09-15T20:35:50.439Z",
+        "assignment_id": "1e20ff5d-b0f1-4942-8d46-890fcde16874",
+        "student_id": "91286fcd-81bc-489a-870b-b126e97cab0d"
+      },
+      {
+        "id": "b01b3529-d910-4a16-9fd5-aac369c8fec1",
+        "score": 15709,
+        "comments": "Needs improvement",
+        "created_at": "2023-09-16T04:25:12.578Z",
+        "updated_at": "2023-09-15T19:58:46.814Z",
+        "assignment_id": "0c5f7ff2-2341-4b63-97c5-c9e456c83358",
+        "student_id": "b65be6ee-707e-4a8a-ad2c-47a323762b64"
+      },
+      {
+        "id": "582a1d99-dd1b-4b4f-b8cb-473593704b23",
+        "score": 5448,
+        "comments": "Well done",
+        "created_at": "2023-09-16T10:19:05.377Z",
+        "updated_at": "2023-09-16T02:26:33.008Z",
+        "assignment_id": "7f575d9d-7e02-418a-8415-9837287bdd87",
+        "student_id": "2033ddd8-5679-43f5-9382-1f6c96f2eb48"
+      },
+      {
+        "id": "ca410395-3ee8-4961-a66d-9690ad391ac3",
+        "score": 26657,
+        "comments": "Keep up the good work",
+        "created_at": "2023-09-16T17:03:18.547Z",
+        "updated_at": "2023-09-16T12:08:24.612Z",
+        "assignment_id": "26dc1804-5795-4ccc-bb3f-043fbcb46942",
+        "student_id": "2033ddd8-5679-43f5-9382-1f6c96f2eb48"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7d310544-ddde-4fb7-ba1f-7f08927186fd",
+        "email": "Dino70@yahoo.com",
+        "firstName": "Quinten",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79281324",
+        "tenantId": null
+      },
+      {
+        "reference": "c76cd188-85ff-4d1a-852a-406653daff70",
+        "email": "Mikayla.McCullough@gmail.com",
+        "firstName": "Betsy",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32374703",
+        "tenantId": null
+      },
+      {
+        "reference": "f156b2ae-1fd9-4608-b4eb-6f1845c4e9e3",
+        "email": "Danika_Thiel49@yahoo.com",
+        "firstName": "Hailey",
+        "lastName": "Hudson-Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/144.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c43453bf-05ff-405d-86bf-ad230a8ecddb",
+        "email": "Anika_Watsica66@hotmail.com",
+        "firstName": "Jermain",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/111.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d6f60b7e-126e-4f1c-aca9-f73a8a05eb0b",
+        "email": "Dedrick.Zieme-Torphy49@gmail.com",
+        "firstName": "Jazmyn",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/288.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "4d08bd80-109d-4b15-ba12-0b14049520d8",
+        "first_name": "Alex",
+        "last_name": "Johnson",
+        "student_grade": "A",
+        "created_at": "2023-09-16T02:10:29.489Z",
+        "updated_at": "2023-09-16T00:50:19.400Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6b7227c5-ccd6-4df7-b866-f4eb3bd52210",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "student_grade": "B",
+        "created_at": "2023-09-16T16:41:49.886Z",
+        "updated_at": "2023-09-16T12:09:50.424Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4ded6b0b-c117-40d4-b7e5-4636a61a3c74",
+        "first_name": "Daniel",
+        "last_name": "Williams",
+        "student_grade": "C",
+        "created_at": "2023-09-16T03:29:05.657Z",
+        "updated_at": "2023-09-16T00:15:39.233Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9501c23f-d2e0-4357-afce-ad1e99d111fb",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "student_grade": "A+",
+        "created_at": "2023-09-15T18:55:04.148Z",
+        "updated_at": "2023-09-16T08:38:03.180Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "516afc45-ef95-4cad-910c-312df253bae7",
+        "first_name": "Jacob",
+        "last_name": "Miller",
+        "student_grade": "B-",
+        "created_at": "2023-09-16T12:05:24.323Z",
+        "updated_at": "2023-09-16T04:53:34.119Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "a90a52ae-db9f-4007-8839-46d9acefce54",
+        "name": "Introduction to Computer Science",
+        "description": "Explore the fundamentals of computer science and programming",
+        "created_at": "2023-09-16T04:38:37.360Z",
+        "updated_at": "2023-09-16T06:37:35.739Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "0ed5a88c-8542-4fd9-b123-5aeafef06510",
+        "name": "Mathematics for Engineers",
+        "description": "Learn advanced mathematical concepts for engineering applications",
+        "created_at": "2023-09-16T13:54:20.220Z",
+        "updated_at": "2023-09-16T04:26:25.443Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "5839c5f5-3707-4765-af47-c394c8debf94",
+        "name": "Art History: Renaissance to Modern",
+        "description": "Study the art movements from the Renaissance period to the modern era",
+        "created_at": "2023-09-16T13:34:09.092Z",
+        "updated_at": "2023-09-16T17:09:02.897Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "0004afc8-667e-4970-959b-8cb5b9a10862",
+        "name": "Introduction to Psychology",
+        "description": "Gain insights into the human mind and behavior",
+        "created_at": "2023-09-16T12:01:41.257Z",
+        "updated_at": "2023-09-16T05:48:41.354Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "e7fc2e7d-147c-425d-9df5-e104fe41fdba",
+        "name": "Business Ethics",
+        "description": "Examine ethical issues in the business world",
+        "created_at": "2023-09-16T08:19:42.599Z",
+        "updated_at": "2023-09-16T05:55:33.467Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "bcc249e6-6669-43b4-9c7b-19cb479060c5",
+        "name": "Research Paper",
+        "description": "Write a research paper on a chosen topic",
+        "due_date": "2023-09-16T13:10:51.408Z",
+        "created_at": "2023-09-16T08:49:15.585Z",
+        "updated_at": "2023-09-16T01:22:22.977Z",
+        "course_id": "0004afc8-667e-4970-959b-8cb5b9a10862"
+      },
+      {
+        "id": "03973c32-67af-41c0-920d-fcfb2834222e",
+        "name": "Group Project",
+        "description": "Collaborate with teammates on a group project",
+        "due_date": "2023-09-16T12:13:30.169Z",
+        "created_at": "2023-09-16T14:09:52.695Z",
+        "updated_at": "2023-09-16T04:27:33.277Z",
+        "course_id": "e7fc2e7d-147c-425d-9df5-e104fe41fdba"
+      },
+      {
+        "id": "b7878344-df7b-449d-8d33-ebd104542399",
+        "name": "Lab Experiment",
+        "description": "Conduct a lab experiment and analyze the results",
+        "due_date": "2023-09-16T04:48:55.443Z",
+        "created_at": "2023-09-16T03:33:15.482Z",
+        "updated_at": "2023-09-16T09:54:59.880Z",
+        "course_id": "a90a52ae-db9f-4007-8839-46d9acefce54"
+      },
+      {
+        "id": "91008a6b-9768-4a12-ac96-02a18c0e077c",
+        "name": "Presentation",
+        "description": "Deliver a presentation on a specific subject",
+        "due_date": "2023-09-16T03:31:20.672Z",
+        "created_at": "2023-09-15T22:27:00.520Z",
+        "updated_at": "2023-09-16T13:05:13.024Z",
+        "course_id": "e7fc2e7d-147c-425d-9df5-e104fe41fdba"
+      },
+      {
+        "id": "63751464-5d74-41bf-933e-89e2e1e68932",
+        "name": "Case Study",
+        "description": "Analyze and discuss a real-life business case",
+        "due_date": "2023-09-16T16:52:46.223Z",
+        "created_at": "2023-09-16T11:54:30.100Z",
+        "updated_at": "2023-09-15T20:56:58.832Z",
+        "course_id": "0004afc8-667e-4970-959b-8cb5b9a10862"
+      }
+    ],
+    "grade": [
+      {
+        "id": "1d527f1d-484d-40dd-af57-56e687e5d552",
+        "score": 28775,
+        "comments": "Excellent work!",
+        "created_at": "2023-09-15T22:31:42.012Z",
+        "updated_at": "2023-09-16T14:39:22.024Z",
+        "assignment_id": "bcc249e6-6669-43b4-9c7b-19cb479060c5",
+        "student_id": "4d08bd80-109d-4b15-ba12-0b14049520d8"
+      },
+      {
+        "id": "618aa378-8519-45ed-b59f-6710fcba2104",
+        "score": 16639,
+        "comments": "Good effort!",
+        "created_at": "2023-09-16T05:41:47.382Z",
+        "updated_at": "2023-09-15T18:36:00.226Z",
+        "assignment_id": "03973c32-67af-41c0-920d-fcfb2834222e",
+        "student_id": "4ded6b0b-c117-40d4-b7e5-4636a61a3c74"
+      },
+      {
+        "id": "a5168045-bd12-45a3-8158-86921ecc2e29",
+        "score": 72218,
+        "comments": "Needs improvement",
+        "created_at": "2023-09-16T03:05:23.491Z",
+        "updated_at": "2023-09-15T22:28:01.277Z",
+        "assignment_id": "bcc249e6-6669-43b4-9c7b-19cb479060c5",
+        "student_id": "9501c23f-d2e0-4357-afce-ad1e99d111fb"
+      },
+      {
+        "id": "865c4253-3999-470f-a2e2-13fc9b0b6d18",
+        "score": 50751,
+        "comments": "Well done!",
+        "created_at": "2023-09-16T08:12:38.584Z",
+        "updated_at": "2023-09-16T03:34:46.629Z",
+        "assignment_id": "b7878344-df7b-449d-8d33-ebd104542399",
+        "student_id": "9501c23f-d2e0-4357-afce-ad1e99d111fb"
+      },
+      {
+        "id": "9f797dbc-8ec6-4ee8-8001-0beae1204dd2",
+        "score": 14299,
+        "comments": "Great job!",
+        "created_at": "2023-09-15T21:45:45.450Z",
+        "updated_at": "2023-09-15T21:04:21.937Z",
+        "assignment_id": "b7878344-df7b-449d-8d33-ebd104542399",
+        "student_id": "4ded6b0b-c117-40d4-b7e5-4636a61a3c74"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c57cf6fa-dd2f-487c-ab72-2c2eafc24fb3",
+        "email": "Savanna88@hotmail.com",
+        "firstName": "Jairo",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27321146",
+        "tenantId": null
+      },
+      {
+        "reference": "92cae07d-a781-49c2-a4a7-4d6d34d923c3",
+        "email": "Elvera_Zboncak@hotmail.com",
+        "firstName": "Macy",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80007723",
+        "tenantId": null
+      },
+      {
+        "reference": "d3802a9c-011a-4fc4-ae8f-b98e5d84fdfb",
+        "email": "Cristopher_Littel@yahoo.com",
+        "firstName": "Jon",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/868.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b2c9653d-bc14-4977-9789-e5c55ae466eb",
+        "email": "Karlee_Rice90@hotmail.com",
+        "firstName": "Francesca",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1243.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "43b4b563-db66-48d6-8009-8a3854385cfc",
+        "email": "Rick57@gmail.com",
+        "firstName": "Alex",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44377231",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "4800a53f-06d9-4794-aff3-efea2f9e3b5e",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "student_grade": "A",
+        "created_at": "2023-09-16T14:13:09.424Z",
+        "updated_at": "2023-09-16T04:54:46.383Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "05add201-bbed-4689-9d69-23d61f7891b1",
+        "first_name": "Emma",
+        "last_name": "Brown",
+        "student_grade": "B",
+        "created_at": "2023-09-15T22:52:00.919Z",
+        "updated_at": "2023-09-16T15:14:45.442Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4ced4183-c2b5-4d73-940a-d7235857ee65",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "student_grade": "C",
+        "created_at": "2023-09-16T03:19:56.248Z",
+        "updated_at": "2023-09-15T22:11:22.965Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a7e6b214-168a-4893-bb72-66c4c7a50977",
+        "first_name": "Olivia",
+        "last_name": "Davis",
+        "student_grade": "A+",
+        "created_at": "2023-09-16T07:54:55.876Z",
+        "updated_at": "2023-09-16T01:29:05.691Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8ba595f1-68e5-4a2e-a1f7-166bf54c4273",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "student_grade": "B-",
+        "created_at": "2023-09-15T22:41:45.636Z",
+        "updated_at": "2023-09-16T10:11:54.144Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "a07f0738-dea3-4810-8abb-14431cf3ed72",
+        "name": "Mathematics",
+        "description": "Study of numbers and their properties",
+        "created_at": "2023-09-15T19:54:24.340Z",
+        "updated_at": "2023-09-16T17:27:27.311Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "41d4c808-9428-4ed2-b194-672c0f70a134",
+        "name": "Science",
+        "description": "Study of the natural world",
+        "created_at": "2023-09-16T16:50:08.318Z",
+        "updated_at": "2023-09-16T02:26:24.701Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "b3ba22e0-077a-43ad-9abe-15bde84db691",
+        "name": "History",
+        "description": "Study of past events",
+        "created_at": "2023-09-15T19:13:34.742Z",
+        "updated_at": "2023-09-16T04:30:33.236Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "c0749d84-f622-4d1e-82b6-1b13e017151e",
+        "name": "English",
+        "description": "Study of language and literature",
+        "created_at": "2023-09-16T02:38:20.371Z",
+        "updated_at": "2023-09-16T03:40:31.751Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "20b4edee-8844-4180-b8ac-2eebcf94ca07",
+        "name": "Computer Science",
+        "description": "Study of computers and programming",
+        "created_at": "2023-09-16T09:15:55.109Z",
+        "updated_at": "2023-09-15T21:18:07.116Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "5aca5cd3-b213-4ba9-8c11-647de2bd6200",
+        "name": "Homework 1",
+        "description": "Complete exercises from textbook",
+        "due_date": "2023-09-16T01:44:40.473Z",
+        "created_at": "2023-09-15T23:48:30.492Z",
+        "updated_at": "2023-09-15T21:43:35.311Z",
+        "course_id": "c0749d84-f622-4d1e-82b6-1b13e017151e"
+      },
+      {
+        "id": "fd90bbb9-fc23-4f6a-952a-7a15db36d62f",
+        "name": "Lab Experiment",
+        "description": "Conduct scientific experiment",
+        "due_date": "2023-09-16T03:14:30.407Z",
+        "created_at": "2023-09-16T08:30:36.789Z",
+        "updated_at": "2023-09-16T12:49:00.666Z",
+        "course_id": "a07f0738-dea3-4810-8abb-14431cf3ed72"
+      },
+      {
+        "id": "736a7c48-5258-40b0-bab6-0a33a00c19e0",
+        "name": "Essay Assignment",
+        "description": "Write an essay on a given topic",
+        "due_date": "2023-09-16T06:25:31.453Z",
+        "created_at": "2023-09-16T10:39:16.066Z",
+        "updated_at": "2023-09-16T04:05:18.422Z",
+        "course_id": "b3ba22e0-077a-43ad-9abe-15bde84db691"
+      },
+      {
+        "id": "21480d8a-dba3-4150-a006-2aa7be76e8a2",
+        "name": "Group Project",
+        "description": "Collaborate with classmates on a project",
+        "due_date": "2023-09-15T20:53:45.899Z",
+        "created_at": "2023-09-15T19:10:37.191Z",
+        "updated_at": "2023-09-16T07:17:37.537Z",
+        "course_id": "41d4c808-9428-4ed2-b194-672c0f70a134"
+      },
+      {
+        "id": "5293a9c7-5c6c-43ed-944a-7e5b4ff62fda",
+        "name": "Final Exam",
+        "description": "Comprehensive assessment of course material",
+        "due_date": "2023-09-16T10:24:33.179Z",
+        "created_at": "2023-09-16T03:16:56.390Z",
+        "updated_at": "2023-09-16T08:08:20.277Z",
+        "course_id": "41d4c808-9428-4ed2-b194-672c0f70a134"
+      }
+    ],
+    "grade": [
+      {
+        "id": "a8a57938-1090-4a4d-aa7a-30f432d88007",
+        "score": 74906,
+        "comments": "Excellent work!",
+        "created_at": "2023-09-15T21:44:28.228Z",
+        "updated_at": "2023-09-16T07:13:30.947Z",
+        "assignment_id": "736a7c48-5258-40b0-bab6-0a33a00c19e0",
+        "student_id": "8ba595f1-68e5-4a2e-a1f7-166bf54c4273"
+      },
+      {
+        "id": "d5795c67-0c8c-4b46-af32-b7216460234e",
+        "score": 60385,
+        "comments": "Good effort",
+        "created_at": "2023-09-16T04:13:32.488Z",
+        "updated_at": "2023-09-16T10:05:54.420Z",
+        "assignment_id": "21480d8a-dba3-4150-a006-2aa7be76e8a2",
+        "student_id": "8ba595f1-68e5-4a2e-a1f7-166bf54c4273"
+      },
+      {
+        "id": "6eb05d9b-5278-4286-aedb-34b6d3ec30f7",
+        "score": 26388,
+        "comments": "Needs improvement",
+        "created_at": "2023-09-15T22:28:22.869Z",
+        "updated_at": "2023-09-16T02:47:11.304Z",
+        "assignment_id": "fd90bbb9-fc23-4f6a-952a-7a15db36d62f",
+        "student_id": "8ba595f1-68e5-4a2e-a1f7-166bf54c4273"
+      },
+      {
+        "id": "85ace308-dc0b-4289-807c-e1a77f45bf19",
+        "score": 64668,
+        "comments": "Well done!",
+        "created_at": "2023-09-16T05:41:05.927Z",
+        "updated_at": "2023-09-16T15:27:24.462Z",
+        "assignment_id": "5aca5cd3-b213-4ba9-8c11-647de2bd6200",
+        "student_id": "a7e6b214-168a-4893-bb72-66c4c7a50977"
+      },
+      {
+        "id": "e5cbf3d1-c428-452c-b614-56a82e8faa85",
+        "score": 76045,
+        "comments": "Great job",
+        "created_at": "2023-09-16T17:44:53.945Z",
+        "updated_at": "2023-09-16T13:17:10.467Z",
+        "assignment_id": "736a7c48-5258-40b0-bab6-0a33a00c19e0",
+        "student_id": "05add201-bbed-4689-9d69-23d61f7891b1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "863b8212-b455-4d8a-8ead-20963a7f7203",
+        "email": "Easter30@hotmail.com",
+        "firstName": "Hollie",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7318106",
+        "tenantId": null
+      },
+      {
+        "reference": "8f287cca-a8d2-45b5-aed9-1bca925bc7fd",
+        "email": "Roberta.Heller@yahoo.com",
+        "firstName": "Lloyd",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46063064",
+        "tenantId": null
+      },
+      {
+        "reference": "0bd2627e-e10a-4cbb-849f-ab8a95890b4a",
+        "email": "Nelle_Doyle@gmail.com",
+        "firstName": "Rebecca",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3055996",
+        "tenantId": null
+      },
+      {
+        "reference": "a7a14b64-3a15-4c79-b7c1-4106bf50fe44",
+        "email": "Keshaun.Fisher@yahoo.com",
+        "firstName": "Trevion",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1211.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "252219ef-85e6-41a6-9b48-16d1ca3e4115",
+        "email": "Jamel39@yahoo.com",
+        "firstName": "Casper",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/552.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "4b9fdbe3-e615-4429-9f5d-a0f8402b1df7",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "student_grade": "A",
+        "created_at": "2023-09-16T00:02:28.178Z",
+        "updated_at": "2023-09-16T05:53:06.747Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "910c56fb-1469-48af-bba6-f4f9b05f73ff",
+        "first_name": "Daniel",
+        "last_name": "Williams",
+        "student_grade": "B",
+        "created_at": "2023-09-16T13:08:12.709Z",
+        "updated_at": "2023-09-16T09:00:27.325Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bc3a9969-151d-45bc-870e-cb5622d291e4",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "student_grade": "C",
+        "created_at": "2023-09-16T11:37:42.339Z",
+        "updated_at": "2023-09-15T18:48:26.089Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "96f17b38-7eb9-4818-b47c-69af5bf62f01",
+        "first_name": "Jacob",
+        "last_name": "Jones",
+        "student_grade": "A+",
+        "created_at": "2023-09-15T23:06:12.136Z",
+        "updated_at": "2023-09-16T15:07:37.378Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "654a1c7d-2779-49a5-8a83-b5baab90c90b",
+        "first_name": "Sophia",
+        "last_name": "Davis",
+        "student_grade": "B-",
+        "created_at": "2023-09-16T06:51:14.098Z",
+        "updated_at": "2023-09-16T00:42:05.492Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "0b99b052-1afe-44e9-a10e-078609c5a4c2",
+        "name": "Introduction to Programming",
+        "description": "Learn the fundamentals of programming using Python",
+        "created_at": "2023-09-16T16:42:35.756Z",
+        "updated_at": "2023-09-15T20:06:31.022Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "0590dda8-6d99-4983-975e-29f5b291ea50",
+        "name": "Data Analysis and Visualization",
+        "description": "Explore techniques for analyzing and visualizing data",
+        "created_at": "2023-09-16T14:35:53.688Z",
+        "updated_at": "2023-09-16T03:02:09.703Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "6de85261-fc2e-4bbc-91f2-0ad95c778149",
+        "name": "Web Development Fundamentals",
+        "description": "Build interactive websites using HTML, CSS, and JavaScript",
+        "created_at": "2023-09-15T20:27:49.753Z",
+        "updated_at": "2023-09-16T07:20:12.075Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "89522223-b99f-4b2b-a673-f3eb18cd9bea",
+        "name": "Machine Learning Basics",
+        "description": "Discover the basics of machine learning algorithms",
+        "created_at": "2023-09-16T06:36:49.803Z",
+        "updated_at": "2023-09-16T04:15:59.631Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "93277cc5-8550-40be-a0e4-796401b6a35a",
+        "name": "Mobile App Development",
+        "description": "Develop mobile applications for iOS and Android",
+        "created_at": "2023-09-16T02:48:38.551Z",
+        "updated_at": "2023-09-15T22:19:19.864Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "f500782f-b89d-4365-89e0-a220952075e2",
+        "name": "Project Proposal",
+        "description": "Prepare a detailed proposal for your project",
+        "due_date": "2023-09-16T13:45:27.607Z",
+        "created_at": "2023-09-16T07:08:28.150Z",
+        "updated_at": "2023-09-16T12:33:56.869Z",
+        "course_id": "93277cc5-8550-40be-a0e4-796401b6a35a"
+      },
+      {
+        "id": "4cf766a5-6aac-4d6d-a02d-20b58dfc83b7",
+        "name": "Research Paper",
+        "description": "Write a research paper on a relevant topic",
+        "due_date": "2023-09-16T06:11:26.172Z",
+        "created_at": "2023-09-15T23:55:33.335Z",
+        "updated_at": "2023-09-16T08:48:05.116Z",
+        "course_id": "0b99b052-1afe-44e9-a10e-078609c5a4c2"
+      },
+      {
+        "id": "45673055-44f5-46ca-89ca-5137f7bfe786",
+        "name": "Code Implementation",
+        "description": "Implement a program to solve a specific problem",
+        "due_date": "2023-09-16T11:36:32.242Z",
+        "created_at": "2023-09-16T00:28:22.545Z",
+        "updated_at": "2023-09-16T12:00:20.860Z",
+        "course_id": "0b99b052-1afe-44e9-a10e-078609c5a4c2"
+      },
+      {
+        "id": "34f1a287-eb61-472a-b39d-6dddd6cf52dc",
+        "name": "Data Analysis Report",
+        "description": "Analyze a dataset and present your findings",
+        "due_date": "2023-09-16T16:13:01.883Z",
+        "created_at": "2023-09-16T07:02:37.336Z",
+        "updated_at": "2023-09-16T05:55:44.523Z",
+        "course_id": "0b99b052-1afe-44e9-a10e-078609c5a4c2"
+      },
+      {
+        "id": "8ca0bdb9-dc43-41d9-8a83-79722bd2b5ee",
+        "name": "Presentation Slides",
+        "description": "Create visually appealing slides for a presentation",
+        "due_date": "2023-09-16T09:09:14.272Z",
+        "created_at": "2023-09-16T17:43:17.424Z",
+        "updated_at": "2023-09-16T04:47:08.999Z",
+        "course_id": "89522223-b99f-4b2b-a673-f3eb18cd9bea"
+      }
+    ],
+    "grade": [
+      {
+        "id": "4463ef0b-ab61-4c4e-aa0b-e851a9dc823a",
+        "score": 31477,
+        "comments": "Great work!",
+        "created_at": "2023-09-16T13:36:34.027Z",
+        "updated_at": "2023-09-16T12:02:26.281Z",
+        "assignment_id": "4cf766a5-6aac-4d6d-a02d-20b58dfc83b7",
+        "student_id": "96f17b38-7eb9-4818-b47c-69af5bf62f01"
+      },
+      {
+        "id": "ed4206c7-bb36-4d31-b219-cefd88998565",
+        "score": 71979,
+        "comments": "Well done!",
+        "created_at": "2023-09-16T04:57:37.647Z",
+        "updated_at": "2023-09-16T14:47:56.841Z",
+        "assignment_id": "34f1a287-eb61-472a-b39d-6dddd6cf52dc",
+        "student_id": "910c56fb-1469-48af-bba6-f4f9b05f73ff"
+      },
+      {
+        "id": "28994c7c-7c19-4fa2-acb1-f5dac742d18e",
+        "score": 57384,
+        "comments": "Good effort!",
+        "created_at": "2023-09-16T17:07:23.520Z",
+        "updated_at": "2023-09-16T02:04:34.006Z",
+        "assignment_id": "45673055-44f5-46ca-89ca-5137f7bfe786",
+        "student_id": "96f17b38-7eb9-4818-b47c-69af5bf62f01"
+      },
+      {
+        "id": "6cbce13e-41cf-49cf-bd61-afeea216c25e",
+        "score": 60362,
+        "comments": "Needs improvement",
+        "created_at": "2023-09-16T16:37:54.345Z",
+        "updated_at": "2023-09-15T18:42:53.406Z",
+        "assignment_id": "45673055-44f5-46ca-89ca-5137f7bfe786",
+        "student_id": "4b9fdbe3-e615-4429-9f5d-a0f8402b1df7"
+      },
+      {
+        "id": "f1743dc8-44b9-40ad-bd1e-ba926f67d14a",
+        "score": 40141,
+        "comments": "Excellent job!",
+        "created_at": "2023-09-16T10:51:37.179Z",
+        "updated_at": "2023-09-16T03:29:17.617Z",
+        "assignment_id": "f500782f-b89d-4365-89e0-a220952075e2",
+        "student_id": "910c56fb-1469-48af-bba6-f4f9b05f73ff"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "32662b2e-1048-42cb-a5ad-553e7dd50d3b",
+        "email": "Roy43@yahoo.com",
+        "firstName": "Renee",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/9.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6bb57af4-1658-460e-876c-e8507136ef54",
+        "email": "Eloy.Crooks66@gmail.com",
+        "firstName": "Bertrand",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25722649",
+        "tenantId": null
+      },
+      {
+        "reference": "ab3590c0-7340-4af3-aa2d-ce84a12f4f9f",
+        "email": "Ariane57@yahoo.com",
+        "firstName": "Kamron",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/593.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "69870c30-deae-47f1-b270-f3670a75c041",
+        "email": "Margaretta.Schuster50@yahoo.com",
+        "firstName": "Favian",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1114.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "28b692dc-3d51-4309-bf9b-5e56897ba803",
+        "email": "Alvina.Bednar@gmail.com",
+        "firstName": "Harley",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/252.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "98cf9a96-d5ef-4cb3-94a2-80aba1ce05db",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "student_grade": "A",
+        "created_at": "2023-09-16T17:56:22.235Z",
+        "updated_at": "2023-09-15T20:26:48.862Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fc97951b-9106-4791-90d9-4e6306d0d9b7",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "student_grade": "B",
+        "created_at": "2023-09-16T12:28:22.044Z",
+        "updated_at": "2023-09-16T04:50:56.696Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3848920d-f26d-4264-9bb1-c8b4ccbe7950",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "student_grade": "C",
+        "created_at": "2023-09-16T16:41:53.800Z",
+        "updated_at": "2023-09-15T22:40:36.642Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "047aaa42-2d52-49ed-8fe7-1377abef160b",
+        "first_name": "Jacob",
+        "last_name": "Davis",
+        "student_grade": "D",
+        "created_at": "2023-09-15T22:04:48.339Z",
+        "updated_at": "2023-09-16T11:59:57.821Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "58f4490c-e788-49d8-86c4-de055a24f980",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "student_grade": "F",
+        "created_at": "2023-09-15T23:36:30.041Z",
+        "updated_at": "2023-09-16T14:13:41.635Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "c4b1f16e-f7aa-4441-86e5-27a243c67dec",
+        "name": "Introduction to Computer Science",
+        "description": "Explore the fundamentals of computer science and programming",
+        "created_at": "2023-09-16T05:53:41.754Z",
+        "updated_at": "2023-09-16T02:46:46.596Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "37811bc8-586f-4678-b67d-0ce0e4f9f142",
+        "name": "Marketing Strategies 101",
+        "description": "Learn effective marketing strategies for business success",
+        "created_at": "2023-09-16T14:28:57.506Z",
+        "updated_at": "2023-09-15T18:36:56.398Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "1d169684-3648-4f99-b0fb-aabccc5c2a68",
+        "name": "Financial Accounting Basics",
+        "description": "Understand the basics of financial accounting and reporting",
+        "created_at": "2023-09-15T19:53:18.879Z",
+        "updated_at": "2023-09-15T21:42:39.290Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "25acc4e6-5b8f-496f-b19a-1c1ed8a74abc",
+        "name": "Art History: Renaissance to Modernism",
+        "description": "Discover the evolution of art from the Renaissance period to modern times",
+        "created_at": "2023-09-16T01:16:45.725Z",
+        "updated_at": "2023-09-15T18:33:34.464Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "c3ddc848-85e5-44d4-9c6c-78b246120bcd",
+        "name": "Introduction to Psychology",
+        "description": "Gain insights into the human mind and behavior through psychology",
+        "created_at": "2023-09-16T18:27:20.289Z",
+        "updated_at": "2023-09-16T08:36:05.969Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "c385fa1c-107b-435a-8ca9-642469ada849",
+        "name": "Research Paper",
+        "description": "Write a research paper on a chosen topic",
+        "due_date": "2023-09-16T04:28:56.196Z",
+        "created_at": "2023-09-16T07:47:10.975Z",
+        "updated_at": "2023-09-16T13:34:46.065Z",
+        "course_id": "c4b1f16e-f7aa-4441-86e5-27a243c67dec"
+      },
+      {
+        "id": "5b9ef01c-10ad-4ed2-a88d-e41b4bc814f5",
+        "name": "Group Project Presentation",
+        "description": "Deliver a group project presentation on a specific subject",
+        "due_date": "2023-09-15T19:20:22.456Z",
+        "created_at": "2023-09-16T06:48:26.810Z",
+        "updated_at": "2023-09-16T13:01:07.877Z",
+        "course_id": "25acc4e6-5b8f-496f-b19a-1c1ed8a74abc"
+      },
+      {
+        "id": "2ae4d60c-fac4-47ff-8bb9-4ef9d4b3b265",
+        "name": "Coding Assignment",
+        "description": "Complete a coding assignment using a programming language",
+        "due_date": "2023-09-16T07:55:21.042Z",
+        "created_at": "2023-09-15T23:04:26.842Z",
+        "updated_at": "2023-09-16T12:05:48.811Z",
+        "course_id": "25acc4e6-5b8f-496f-b19a-1c1ed8a74abc"
+      },
+      {
+        "id": "658f5e31-a6d3-4681-897e-b81d4af052f7",
+        "name": "Case Study Analysis",
+        "description": "Analyze a case study and provide insights and recommendations",
+        "due_date": "2023-09-16T17:46:06.101Z",
+        "created_at": "2023-09-16T04:36:01.058Z",
+        "updated_at": "2023-09-16T11:35:50.441Z",
+        "course_id": "37811bc8-586f-4678-b67d-0ce0e4f9f142"
+      },
+      {
+        "id": "da4b6300-8f4e-46d5-858a-b1696c789825",
+        "name": "Creative Writing Piece",
+        "description": "Create a creative writing piece based on a given prompt",
+        "due_date": "2023-09-15T23:37:30.157Z",
+        "created_at": "2023-09-16T15:42:22.045Z",
+        "updated_at": "2023-09-16T13:40:14.788Z",
+        "course_id": "c4b1f16e-f7aa-4441-86e5-27a243c67dec"
+      }
+    ],
+    "grade": [
+      {
+        "id": "986c3e02-7348-4802-b985-ae1180f7b59f",
+        "score": 68972,
+        "comments": "Excellent work!",
+        "created_at": "2023-09-16T15:48:43.014Z",
+        "updated_at": "2023-09-16T18:12:18.776Z",
+        "assignment_id": "c385fa1c-107b-435a-8ca9-642469ada849",
+        "student_id": "98cf9a96-d5ef-4cb3-94a2-80aba1ce05db"
+      },
+      {
+        "id": "8d1c04f7-d7cf-4748-9643-9026df1b6d2d",
+        "score": 82160,
+        "comments": "Good effort!",
+        "created_at": "2023-09-15T22:39:21.756Z",
+        "updated_at": "2023-09-16T08:58:26.509Z",
+        "assignment_id": "658f5e31-a6d3-4681-897e-b81d4af052f7",
+        "student_id": "58f4490c-e788-49d8-86c4-de055a24f980"
+      },
+      {
+        "id": "f8388e2d-943a-406f-9db5-7048c2d7e75c",
+        "score": 6097,
+        "comments": "Needs improvement",
+        "created_at": "2023-09-15T18:29:51.181Z",
+        "updated_at": "2023-09-16T02:36:54.057Z",
+        "assignment_id": "2ae4d60c-fac4-47ff-8bb9-4ef9d4b3b265",
+        "student_id": "047aaa42-2d52-49ed-8fe7-1377abef160b"
+      },
+      {
+        "id": "26eff1e5-10ad-45c5-ad87-b1982458dce8",
+        "score": 14782,
+        "comments": "Well done!",
+        "created_at": "2023-09-15T18:49:00.330Z",
+        "updated_at": "2023-09-16T08:37:44.953Z",
+        "assignment_id": "2ae4d60c-fac4-47ff-8bb9-4ef9d4b3b265",
+        "student_id": "047aaa42-2d52-49ed-8fe7-1377abef160b"
+      },
+      {
+        "id": "52ecf55b-4c8a-415e-89e8-d201a8c6701a",
+        "score": 23226,
+        "comments": "Great job!",
+        "created_at": "2023-09-15T22:02:11.511Z",
+        "updated_at": "2023-09-15T22:11:07.095Z",
+        "assignment_id": "658f5e31-a6d3-4681-897e-b81d4af052f7",
+        "student_id": "98cf9a96-d5ef-4cb3-94a2-80aba1ce05db"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "639c7bc3-5fcd-4dfb-89c0-1655adce47f4",
+        "email": "Melissa37@yahoo.com",
+        "firstName": "Andres",
+        "lastName": "Pacocha",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5014072",
+        "tenantId": null
+      },
+      {
+        "reference": "bf3ac88e-18db-4d79-8c6c-be888536b671",
+        "email": "Zachery_Hane@yahoo.com",
+        "firstName": "Jalyn",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29544586",
+        "tenantId": null
+      },
+      {
+        "reference": "1c15a4b6-f8ff-4132-bb66-2322c4b4686e",
+        "email": "Wallace92@gmail.com",
+        "firstName": "Clay",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1125.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "af335d40-aad7-41b8-b447-8a80e0fcca8c",
+        "email": "Prudence.Fisher95@hotmail.com",
+        "firstName": "Corine",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32745645",
+        "tenantId": null
+      },
+      {
+        "reference": "380ec6af-53bc-4b67-9dd9-b38a9e767e15",
+        "email": "Marcos_Hilpert@yahoo.com",
+        "firstName": "Axel",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91993665",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "d4dc598d-aa58-45f0-908d-d84de38dce39",
+        "first_name": "Emma",
+        "last_name": "Smith",
+        "student_grade": "A",
+        "created_at": "2023-09-16T01:09:37.200Z",
+        "updated_at": "2023-09-15T21:08:38.362Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a2a3434c-d6ab-4e98-97f2-c76468a85853",
+        "first_name": "Liam",
+        "last_name": "Johnson",
+        "student_grade": "B",
+        "created_at": "2023-09-16T01:02:41.198Z",
+        "updated_at": "2023-09-16T01:55:44.903Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bc03d019-a010-49db-ab69-ece06b47d829",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "student_grade": "C",
+        "created_at": "2023-09-16T03:04:26.597Z",
+        "updated_at": "2023-09-16T07:38:36.985Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "88525c62-bd62-4d3e-9f68-4c216a5275b7",
+        "first_name": "Noah",
+        "last_name": "Brown",
+        "student_grade": "D",
+        "created_at": "2023-09-16T07:40:24.748Z",
+        "updated_at": "2023-09-16T08:45:55.483Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "70e96cc1-a269-4fd0-86d5-53417837cf19",
+        "first_name": "Ava",
+        "last_name": "Jones",
+        "student_grade": "F",
+        "created_at": "2023-09-16T04:21:39.907Z",
+        "updated_at": "2023-09-16T04:24:37.546Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "b47a1483-e2b8-48eb-aa51-daf2e5b4574a",
+        "name": "Mathematics",
+        "description": "Study of numbers and calculations",
+        "created_at": "2023-09-16T04:32:18.707Z",
+        "updated_at": "2023-09-15T23:36:25.221Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "edeb86be-392a-4353-b4fd-07268c1111e7",
+        "name": "Science",
+        "description": "Study of the natural world",
+        "created_at": "2023-09-16T03:46:57.561Z",
+        "updated_at": "2023-09-16T04:53:05.791Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f4f318ab-161f-42c2-bcc7-e94b182749e7",
+        "name": "English",
+        "description": "Study of language and literature",
+        "created_at": "2023-09-16T14:46:51.652Z",
+        "updated_at": "2023-09-16T08:15:30.172Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "2fde2f71-7bfa-46b8-a2d8-2fdcb4d577e5",
+        "name": "History",
+        "description": "Study of past events",
+        "created_at": "2023-09-15T23:20:29.643Z",
+        "updated_at": "2023-09-16T01:55:44.996Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "3eae3731-8952-491f-83a3-22728717c139",
+        "name": "Computer Science",
+        "description": "Study of computers and programming",
+        "created_at": "2023-09-16T16:38:52.791Z",
+        "updated_at": "2023-09-16T06:45:56.982Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "3e3ad7dc-e291-4a54-8ff1-0609fd2f3889",
+        "name": "Essay",
+        "description": "Written composition",
+        "due_date": "2023-09-16T02:18:02.518Z",
+        "created_at": "2023-09-16T13:46:05.335Z",
+        "updated_at": "2023-09-16T18:06:10.657Z",
+        "course_id": "b47a1483-e2b8-48eb-aa51-daf2e5b4574a"
+      },
+      {
+        "id": "fe87c760-08cf-4044-a08d-3a4545becfc5",
+        "name": "Presentation",
+        "description": "Visual or oral presentation",
+        "due_date": "2023-09-16T10:20:10.415Z",
+        "created_at": "2023-09-15T21:07:36.786Z",
+        "updated_at": "2023-09-16T13:26:52.863Z",
+        "course_id": "3eae3731-8952-491f-83a3-22728717c139"
+      },
+      {
+        "id": "451aaaac-ad3e-4c32-bb27-40f73df7ad3b",
+        "name": "Project",
+        "description": "Task or assignment to complete",
+        "due_date": "2023-09-15T23:06:44.668Z",
+        "created_at": "2023-09-16T04:24:21.623Z",
+        "updated_at": "2023-09-15T19:46:18.887Z",
+        "course_id": "2fde2f71-7bfa-46b8-a2d8-2fdcb4d577e5"
+      },
+      {
+        "id": "77e0c847-6a85-4cd4-bb28-253d568f8b76",
+        "name": "Quiz",
+        "description": "Short test of knowledge",
+        "due_date": "2023-09-16T14:02:39.817Z",
+        "created_at": "2023-09-16T10:18:44.747Z",
+        "updated_at": "2023-09-15T19:08:36.851Z",
+        "course_id": "f4f318ab-161f-42c2-bcc7-e94b182749e7"
+      },
+      {
+        "id": "9c6403d2-bf8f-441f-8b01-bf0cb7712d06",
+        "name": "Exam",
+        "description": "Formal examination",
+        "due_date": "2023-09-16T06:40:58.783Z",
+        "created_at": "2023-09-16T03:05:44.979Z",
+        "updated_at": "2023-09-16T07:15:00.446Z",
+        "course_id": "3eae3731-8952-491f-83a3-22728717c139"
+      }
+    ],
+    "grade": [
+      {
+        "id": "de5a5f22-a53d-4d9c-b4fa-93aa0e712240",
+        "score": 23701,
+        "comments": "Great effort!",
+        "created_at": "2023-09-16T02:22:15.960Z",
+        "updated_at": "2023-09-16T03:54:41.200Z",
+        "assignment_id": "77e0c847-6a85-4cd4-bb28-253d568f8b76",
+        "student_id": "a2a3434c-d6ab-4e98-97f2-c76468a85853"
+      },
+      {
+        "id": "d8fee2dd-3bc4-46ee-ba7d-4509853a754e",
+        "score": 25767,
+        "comments": "Needs improvement",
+        "created_at": "2023-09-16T00:03:42.483Z",
+        "updated_at": "2023-09-16T00:08:44.579Z",
+        "assignment_id": "451aaaac-ad3e-4c32-bb27-40f73df7ad3b",
+        "student_id": "d4dc598d-aa58-45f0-908d-d84de38dce39"
+      },
+      {
+        "id": "7977b0cd-5f8f-4db3-b310-f115f89f2c6d",
+        "score": 81330,
+        "comments": "Well done!",
+        "created_at": "2023-09-16T04:41:14.900Z",
+        "updated_at": "2023-09-16T10:56:28.678Z",
+        "assignment_id": "77e0c847-6a85-4cd4-bb28-253d568f8b76",
+        "student_id": "88525c62-bd62-4d3e-9f68-4c216a5275b7"
+      },
+      {
+        "id": "38c68dce-cc3f-46a7-b738-ad8601edaa74",
+        "score": 66506,
+        "comments": "Excellent work",
+        "created_at": "2023-09-16T09:18:55.857Z",
+        "updated_at": "2023-09-16T12:31:31.692Z",
+        "assignment_id": "451aaaac-ad3e-4c32-bb27-40f73df7ad3b",
+        "student_id": "88525c62-bd62-4d3e-9f68-4c216a5275b7"
+      },
+      {
+        "id": "1cf1664d-8192-42df-838e-a49520747d2d",
+        "score": 39519,
+        "comments": "Keep up the good work",
+        "created_at": "2023-09-16T03:01:12.751Z",
+        "updated_at": "2023-09-16T18:10:03.053Z",
+        "assignment_id": "451aaaac-ad3e-4c32-bb27-40f73df7ad3b",
+        "student_id": "70e96cc1-a269-4fd0-86d5-53417837cf19"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "64f40487-dcdc-408f-afdb-c459547cb3bf",
+        "email": "Madonna84@hotmail.com",
+        "firstName": "Santina",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52904413",
+        "tenantId": null
+      },
+      {
+        "reference": "32934e4d-d9fd-40f1-b546-2ad075e2051e",
+        "email": "Lincoln.Ernser@yahoo.com",
+        "firstName": "Jean",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1212.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7d406f65-da54-4443-a83c-003cd6ce0dfc",
+        "email": "Amaya.Koelpin94@yahoo.com",
+        "firstName": "Antone",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/27.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ecffcf59-074f-4267-89fa-4d76d53f23ec",
+        "email": "Una63@hotmail.com",
+        "firstName": "Gail",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/680.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4c9ba05c-339f-4548-b08e-9bd2dcd41c84",
+        "email": "Jamaal_Conroy@yahoo.com",
+        "firstName": "Justen",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1206.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "93e8b1d5-7fda-477c-958b-658c88b492a3",
+        "first_name": "Emma",
+        "last_name": "Johnson",
+        "student_grade": "A",
+        "created_at": "2023-09-16T14:18:13.273Z",
+        "updated_at": "2023-09-16T15:16:05.005Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ed8a9e0c-e807-44b6-bba7-08f6f9af3c19",
+        "first_name": "Liam",
+        "last_name": "Smith",
+        "student_grade": "B",
+        "created_at": "2023-09-16T16:25:07.805Z",
+        "updated_at": "2023-09-16T07:08:12.059Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "89a62c3a-a649-47c1-99ea-546693f6e6a9",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "student_grade": "C",
+        "created_at": "2023-09-16T16:48:30.497Z",
+        "updated_at": "2023-09-16T04:02:07.221Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "03fc81f5-d987-4cd3-a54a-0d0740a9968b",
+        "first_name": "Noah",
+        "last_name": "Brown",
+        "student_grade": "D",
+        "created_at": "2023-09-16T10:39:19.051Z",
+        "updated_at": "2023-09-16T15:15:17.599Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "49ec631a-4d47-4aae-a9a5-4da6626a4eac",
+        "first_name": "Ava",
+        "last_name": "Jones",
+        "student_grade": "F",
+        "created_at": "2023-09-16T17:29:43.057Z",
+        "updated_at": "2023-09-16T05:58:01.287Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "73365048-2c0c-4bbb-933e-8d1923ccc92c",
+        "name": "Mathematics",
+        "description": "Advanced course in calculus",
+        "created_at": "2023-09-16T02:55:17.527Z",
+        "updated_at": "2023-09-15T21:44:49.406Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "1fc1806d-ba75-43ee-a6fa-7a583dd2af38",
+        "name": "English Literature",
+        "description": "Study of classic literature",
+        "created_at": "2023-09-16T18:05:15.455Z",
+        "updated_at": "2023-09-16T01:06:08.019Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "4b09e546-a102-4b3d-b2fd-cd23c89300e9",
+        "name": "Physics",
+        "description": "Exploring the laws of motion",
+        "created_at": "2023-09-16T05:04:43.936Z",
+        "updated_at": "2023-09-16T11:21:36.365Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "723f6f05-904a-4325-a477-dfb3bab93de5",
+        "name": "History",
+        "description": "Understanding past events",
+        "created_at": "2023-09-16T12:15:41.285Z",
+        "updated_at": "2023-09-16T01:53:02.468Z",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "a08ecd48-894c-4d6e-badb-c829c7da7789",
+        "name": "Computer Science",
+        "description": "Programming and algorithms",
+        "created_at": "2023-09-16T01:43:43.409Z",
+        "updated_at": "2023-09-16T03:56:21.147Z",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "ed90d039-e6c6-4cbf-929c-fb1d5ea43a55",
+        "name": "Essay on World War II",
+        "description": "Analyze the impact of World War II",
+        "due_date": "2023-09-15T21:02:50.504Z",
+        "created_at": "2023-09-16T08:10:37.305Z",
+        "updated_at": "2023-09-16T12:17:49.707Z",
+        "course_id": "73365048-2c0c-4bbb-933e-8d1923ccc92c"
+      },
+      {
+        "id": "ef028df8-5cf7-4f4b-b848-d72901485442",
+        "name": "Solving complex equations",
+        "description": "Solve mathematical equations involving multiple variables",
+        "due_date": "2023-09-16T14:33:04.258Z",
+        "created_at": "2023-09-15T20:27:06.057Z",
+        "updated_at": "2023-09-16T05:08:23.836Z",
+        "course_id": "73365048-2c0c-4bbb-933e-8d1923ccc92c"
+      },
+      {
+        "id": "94c3025c-b46b-4fe8-b3de-ab4a57ed6244",
+        "name": "Literary analysis of Shakespeare's plays",
+        "description": "Critically analyze Shakespeare's works",
+        "due_date": "2023-09-16T16:04:40.362Z",
+        "created_at": "2023-09-15T21:56:48.142Z",
+        "updated_at": "2023-09-16T07:47:32.093Z",
+        "course_id": "723f6f05-904a-4325-a477-dfb3bab93de5"
+      },
+      {
+        "id": "e33841b0-a1d4-464d-acf2-b26d564766e1",
+        "name": "Research project on renewable energy",
+        "description": "Investigate the benefits of renewable energy sources",
+        "due_date": "2023-09-16T13:02:33.917Z",
+        "created_at": "2023-09-16T13:03:31.340Z",
+        "updated_at": "2023-09-16T12:39:18.773Z",
+        "course_id": "4b09e546-a102-4b3d-b2fd-cd23c89300e9"
+      },
+      {
+        "id": "e2f1f573-78f8-4cc4-92ad-eb50d50ea8e5",
+        "name": "Building a web application",
+        "description": "Develop a functional web application using modern technologies",
+        "due_date": "2023-09-16T01:03:56.890Z",
+        "created_at": "2023-09-15T23:07:24.523Z",
+        "updated_at": "2023-09-16T05:14:24.552Z",
+        "course_id": "723f6f05-904a-4325-a477-dfb3bab93de5"
+      }
+    ],
+    "grade": [
+      {
+        "id": "9d3d6df7-f2c5-432c-9a92-a7d9a52acf31",
+        "score": 45299,
+        "comments": "Excellent work!",
+        "created_at": "2023-09-16T05:43:57.282Z",
+        "updated_at": "2023-09-16T17:08:59.705Z",
+        "assignment_id": "e33841b0-a1d4-464d-acf2-b26d564766e1",
+        "student_id": "49ec631a-4d47-4aae-a9a5-4da6626a4eac"
+      },
+      {
+        "id": "cf5afe78-fbc3-4f85-b7b2-167d141a5d29",
+        "score": 69142,
+        "comments": "Good effort!",
+        "created_at": "2023-09-15T21:03:40.009Z",
+        "updated_at": "2023-09-16T04:56:29.439Z",
+        "assignment_id": "e2f1f573-78f8-4cc4-92ad-eb50d50ea8e5",
+        "student_id": "ed8a9e0c-e807-44b6-bba7-08f6f9af3c19"
+      },
+      {
+        "id": "b94a1158-6ef1-4756-94e4-0023ff1254df",
+        "score": 42653,
+        "comments": "Needs improvement",
+        "created_at": "2023-09-16T00:08:09.959Z",
+        "updated_at": "2023-09-16T05:13:57.595Z",
+        "assignment_id": "94c3025c-b46b-4fe8-b3de-ab4a57ed6244",
+        "student_id": "49ec631a-4d47-4aae-a9a5-4da6626a4eac"
+      },
+      {
+        "id": "099de3c0-dacd-447a-8431-6beaedc46cc9",
+        "score": 46401,
+        "comments": "Well done!",
+        "created_at": "2023-09-15T22:40:37.195Z",
+        "updated_at": "2023-09-15T19:35:46.844Z",
+        "assignment_id": "ef028df8-5cf7-4f4b-b848-d72901485442",
+        "student_id": "93e8b1d5-7fda-477c-958b-658c88b492a3"
+      },
+      {
+        "id": "4437485e-fdbe-4b25-874b-d6246add08f2",
+        "score": 40624,
+        "comments": "Great job!",
+        "created_at": "2023-09-16T07:26:28.773Z",
+        "updated_at": "2023-09-16T12:43:00.805Z",
+        "assignment_id": "94c3025c-b46b-4fe8-b3de-ab4a57ed6244",
+        "student_id": "49ec631a-4d47-4aae-a9a5-4da6626a4eac"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "350340c1-4986-42d1-b4e2-ee52534aa794",
+        "email": "Dan16@yahoo.com",
+        "firstName": "Ardella",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/698.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "076a7825-af5e-4215-8bc3-d86ea53294e2",
+        "email": "Clinton_Bayer97@gmail.com",
+        "firstName": "Justyn",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/297.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0c16bcd7-dab5-455d-a4ae-b993d9f0ee2f",
+        "email": "Uriel.Harber26@yahoo.com",
+        "firstName": "Arnaldo",
+        "lastName": "Breitenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/755.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6f60db6b-79cb-40b0-a680-f9ecc136458a",
+        "email": "Cleo56@hotmail.com",
+        "firstName": "Nicole",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72486161",
+        "tenantId": null
+      },
+      {
+        "reference": "ee8e0bd2-064f-43c1-b9b3-9b0fcf3d94a2",
+        "email": "Annie.Cole@yahoo.com",
+        "firstName": "Patsy",
+        "lastName": "Franecki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6288757",
+        "tenantId": null
+      }
+    ]
+  }
+]
